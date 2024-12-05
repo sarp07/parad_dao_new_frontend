@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../../common/container";
 import Image from "next/image";
 import Bsc from "../../../assets/svgs/bsc.svg";
-import Lbank from "../../../assets/svgs/lbank.svg"; // Yeni SVG'yi import ettik.
+import Lbank from "../../../assets/svgs/lbank.svg";
 
 const buyParadCards = [
   {
@@ -10,7 +10,7 @@ const buyParadCards = [
     description:
       "Trade Parad tokens on LBank, a trusted global cryptocurrency exchange.",
     link: "https://www.lbank.com/trade/prd_usdt",
-    img: Lbank, // Yeni SVG'yi buraya bağladık.
+    img: Lbank,
   },
   {
     title: "BSCscan",
@@ -64,6 +64,8 @@ const buyParad = () => {
                 <div className="w-full flex items-center justify-center mt-5">
                   <a
                     href={card.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-xl text-center text-[#a9c9e2] hover:text-white border-2 rounded-[30px] w-auto border-blue-200 bg-[#091728] hover:bg-slate-700 px-20 py-[10px] transition-all "
                   >
                     {card.title}
