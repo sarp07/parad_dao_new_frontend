@@ -19,7 +19,7 @@ const mediaLogos = [
 
 const Media = () => {
   return (
-    <div className="media w-full flex flex-col items-center lg:my-20 my-5">
+    <div className="media w-full flex flex-col items-center lg:my-52 mt-20">
       <Container>
         {/* Başlık */}
         <div className="text-center mb-10">
