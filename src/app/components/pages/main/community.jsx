@@ -47,7 +47,7 @@ const Community = () => {
                {communityLinks.map((link, index) => (
                   <a
                      href={link.link}
-                     className="flex-1 w-full bg-[#1f2a3f] p-6 rounded-lg flex flex-col items-center justify-center shadow-lg hover:-translate-y-2 transition-all"
+                     className="flex-1 w-full bg-[#1f2a3f] p-6 rounded-lg flex flex-col items-center justify-center shadow-lg hover:-translate-y-2 duration-500 transition-all"
                      key={index}
                   >
                      {link.icon}
