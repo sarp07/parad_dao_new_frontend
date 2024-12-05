@@ -2,15 +2,15 @@ import React from "react";
 import Container from "../../common/container";
 import Image from "next/image";
 import Bsc from "../../../assets/svgs/bsc.svg";
-import Pancake from "../../../assets/svgs/pancake.svg";
+import Lbank from "../../../assets/svgs/lbank.svg"; // Yeni SVG'yi import ettik.
 
 const buyParadCards = [
   {
-    title: "PancakeSwap",
+    title: "LBank",
     description:
-      "Easily swap Parad tokens on PancakeSwap, Binance Smart Chain's top DEX.",
-    link: "https://pancakeswap.finance/?inputCurrency=0xf7fc02De1af32CF162583086ba35397b8B0996f8",
-    img: Pancake,
+      "Trade Parad tokens on LBank, a trusted global cryptocurrency exchange.",
+    link: "https://www.lbank.com/trade/prd_usdt",
+    img: Lbank, // Yeni SVG'yi buraya bağladık.
   },
   {
     title: "BSCscan",

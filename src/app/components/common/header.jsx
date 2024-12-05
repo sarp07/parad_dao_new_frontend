@@ -108,7 +108,7 @@ const Header = () => {
           <div className="button-and-menu flex items-center gap-2">
             <div className="button-container">
               <a
-                href="https://app.prddao.io"
+                href="https://www.lbank.com/trade/prd_usdt"
                 target="_blank"
                 className="text-[#a9c9e2] hover:text-white text-sm lg:px-6 lg:py-2 px-4 py-[6px] rounded-full border border-blue-200 bg-[#091728] hover:bg-slate-700 transition-all"
               >
