@@ -6,21 +6,25 @@ const cards = [
       title: "Parad Wallet",
       description: "Coming soon",
       link: null,
+      img: "https://s13.gifyu.com/images/SJNTk.gif",
    },
    {
       title: "Parad Dao",
       description: "Parad Dao",
       link: "https://app.prddao.io",
+      img: "https://s13.gifyu.com/images/SJNTk.gif",
    },
    {
       title: "Parad Finance",
       description: "Coming soon",
       link: null,
+      img: "https://s13.gifyu.com/images/SJNTk.gif",
    },
    {
       title: "Parad Cheque",
       description: "Coming soon",
       link: null,
+      img: "https://s13.gifyu.com/images/SJNTk.gif",
    },
 ];
 
@@ -28,7 +32,7 @@ const Cards = () => {
    return (
       <div className="cards w-full flex">
          <Container>
-            <div className="grid grid-cols-2 justify-center gap-x-8 gap-y-20 mt-20">
+            <div className="grid lg:grid-cols-2 grid-cols-1 justify-center gap-x-8 gap-y-20 mt-20">
                {cards.map((card, index) => (
                   <div
                      className=" w-full h-auto relative flex flex-col"
@@ -36,7 +40,7 @@ const Cards = () => {
                   >
                      <div className="img-container w-full flex items-center justify-center h-[100px]">
                         <img
-                           src="https://s13.gifyu.com/images/SJNTk.gif"
+                           src={card.img}
                            alt="Card GIF"
                            className="w-[160px] h-auto object-cover"
                         />
@@ -60,7 +64,10 @@ const Cards = () => {
                            )}
                         </p>
                         <div className="w-full flex items-center justify-center mt-5">
-                           <button className="text-xl text-center text-[#788fa1] border rounded-[30px] w-auto border-white/10 bg-white/[0.03] px-6 py-2">
+                           <button
+                              className="text-xl text-center text-[#788fa1] border rounded-[30px] w-auto border-white/10 bg-white/[0.03] px-20 py-[10px]"
+                              disabled={card.link === null}
+                           >
                               {card.description}
                            </button>
                         </div>

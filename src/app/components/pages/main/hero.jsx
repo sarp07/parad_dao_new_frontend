@@ -26,8 +26,11 @@ const Hero = () => {
                </div>
 
                <div className="flex justify-center">
-                  <h5 className="w-5/6 text-8xl font-black text-center text-[#a2cdef] relative z-[10]">
+                  <h5 className="w-5/6 text-8xl font-black text-center text-[#a2cdef] relative z-[10] lg:flex hidden">
                      SECURE THE FUTURE<br></br>OF FINANCE WITH<br></br>PARAD.
+                  </h5>
+                  <h5 className="w-full text-4xl font-black text-center text-[#a2cdef] relative z-[10] lg:hidden flex">
+                     SECURE THE FUTURE OF FINANCE WITH PARAD.
                   </h5>
                   <div className="absolute w-full flex items-center justify-center mt-10">
                      {/* <HeroBox /> */}
