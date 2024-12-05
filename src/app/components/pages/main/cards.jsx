@@ -63,17 +63,17 @@ const Cards = () => {
                   className="w-[160px] h-auto object-cover"
                 />
               </div>
-              <div className="item-box w-full h-[240px] py-6 relative overflow-hidden flex flex-col justify-center gap-4">
+              <div className="item-box w-full lg:h-[250px] h-[260px] py-6 relative overflow-hidden flex flex-col justify-center gap-4">
                 {/* <div className="mini-glow absolute right-0 bottom-20 -z-10"></div> */}
                 <div className="mini-glow absolute right-0 bottom-20 w-[200px] h-[200px] bg-[#208bdf] rounded-full blur-xl opacity-50 -z-10"></div>
                 <div className="mini-glow absolute right-2 bottom-10 w-[150px] h-[150px] bg-[#8fd208] rounded-full blur-xl opacity-50 -z-10"></div>
                 <div className="mini-glow absolute left-0 bottom-0 w-[250px] h-[250px] bg-[#a020f0] rounded-full blur-xl opacity-100 -z-10"></div>
 
-                <p className="text-4xl font-black text-center text-[#a2cdef]">
+                <p className="lg:text-4xl text-3xl font-black text-center text-[#a2cdef]">
                   {card.title.toUpperCase()}
                 </p>
 
-                <p className="text-xl text-center text-[#d0d0d0] px-16">
+                <p className="lg:text-xl text-lg text-center text-[#d0d0d0] px-16">
                   {card.description}
                 </p>
                 <div className="w-full flex items-center justify-center mt-5">
@@ -81,13 +81,13 @@ const Cards = () => {
                     <a
                       href={card.link}
                       target="_blank"
-                      className="text-xl text-center text-[#a9c9e2] hover:text-white transition-colors border-2 rounded-full w-auto border-blue-200 bg-[#091728] hover:bg-slate-700 px-20 py-[10px]"
+                      className="lg:text-xl text-lg text-center text-[#a9c9e2] hover:text-white transition-colors border-2 rounded-full w-auto border-blue-200 bg-[#091728] hover:bg-slate-700 px-20 py-[10px]"
                     >
                       Learn More
                     </a>
                   ) : (
                     <button
-                      className="text-xl text-center text-[#788fa1] border rounded-[30px] w-auto border-white/10 bg-white/[0.03] px-20 py-[10px]"
+                      className="lg:text-xl text-lg text-center text-[#788fa1] border rounded-[30px] w-auto border-white/10 bg-white/[0.03] px-20 py-[10px]"
                       disabled
                     >
                       Coming Soon

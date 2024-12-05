@@ -15,7 +15,7 @@ const buyParadCards = [
   {
     title: "BSCscan",
     description:
-      "Track your Parad tokens and check transaction details on BSCscan, the leading blockchain explorer for Binance Smart Chain.",
+      "Track Parad tokens and view transactions on BSCscan, Binance Smart Chain's top explorer.",
     link: "https://bscscan.com/token/0xf7fc02De1af32CF162583086ba35397b8B0996f8",
     img: Bsc,
   },
@@ -47,17 +47,17 @@ const buyParad = () => {
                   className="w-[160px] h-auto object-cover"
                 />
               </div>
-              <div className="item-box w-full h-[240px] py-6 relative overflow-hidden flex flex-col justify-center gap-4">
+              <div className="item-box w-full lg:h-[250px] h-[260px] py-6 relative overflow-hidden flex flex-col justify-center gap-4">
                 {/* <div className="mini-glow bg-[#208bdf] absolute right-0 bottom-20 -z-10"></div> */}
                 <div className="mini-glow absolute right-0 bottom-20 w-[200px] h-[200px] bg-[#208bdf] rounded-full blur-xl opacity-50 -z-10"></div>
                 <div className="mini-glow absolute right-2 bottom-10 w-[150px] h-[150px] bg-[#8fd208] rounded-full blur-xl opacity-50 -z-10"></div>
                 <div className="mini-glow absolute left-0 bottom-0 w-[250px] h-[250px] bg-[#a020f0] rounded-full blur-xl opacity-100 -z-10"></div>
 
-                <p className="text-4xl font-black text-center text-[#a2cdef]">
+                <p className="lg:text-4xl text-3xl font-black text-center text-[#a2cdef]">
                   {card.title.toUpperCase()}
                 </p>
 
-                <p className="text-xl text-center text-[#d0d0d0] px-16">
+                <p className="lg:text-xl text-lg text-center text-[#d0d0d0] px-16">
                   {card.description}
                 </p>
                 <div className="w-full flex items-center justify-center mt-5">
