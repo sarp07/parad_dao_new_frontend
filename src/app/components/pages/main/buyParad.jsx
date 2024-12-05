@@ -8,7 +8,7 @@ const buyParadCards = [
   {
     title: "PancakeSwap",
     description:
-      "Swap your Parad tokens with ease on PancakeSwap, the most popular decentralized exchange on Binance Smart Chain.",
+      "Easily swap Parad tokens on PancakeSwap, Binance Smart Chain's top DEX.",
     link: "https://pancakeswap.finance/?inputCurrency=0xf7fc02De1af32CF162583086ba35397b8B0996f8",
     img: Pancake,
   },

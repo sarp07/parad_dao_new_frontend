@@ -5,35 +5,27 @@ import WalletGif from "../../../assets/gifs/wallet.gif";
 import DaoGif from "../../../assets/gifs/ddao.gif";
 import FinanceGif from "../../../assets/gifs/finance.gif";
 import ChequeGif from "../../../assets/gifs/cheque.gif";
+import Stake from "../../../assets/gifs/stake.gif";
 
 const cards = [
   {
-    title: "Parad Wallet",
-    description:
-      "Your self-custody wallet for ultimate security and control over your digital assets.",
-    link: null,
-    img: WalletGif,
+    title: "NFT Stake",
+    description: "Stake your NFTs to earn rewards and maximize your potential.",
+    link: "https://app.prddao.io/stake",
+    img: Stake,
   },
   {
     title: "Parad Dao",
     description:
       "Join the Parad DAO to participate in decentralized decision-making and governance.",
     link: "https://app.prddao.io",
-    img: DaoGif,
+    img: DaoGif, // Geçici GIF
   },
   {
-    title: "Parad Finance",
-    description:
-      "Revolutionizing finance with decentralized and transparent solutions for everyone.",
+    title: "Loan",
+    description: "Access decentralized loans easily. Coming soon.",
     link: null,
-    img: FinanceGif,
-  },
-  {
-    title: "Parad Cheque",
-    description:
-      "Experience the future of secure digital transactions with blockchain-powered cheques.",
-    link: null,
-    img: ChequeGif,
+    img: FinanceGif, // Geçici GIF
   },
 ];
 
@@ -55,7 +47,12 @@ const Cards = () => {
         {/* Kartlar */}
         <div className="grid lg:grid-cols-2 grid-cols-1 justify-center gap-x-8 gap-y-20 mt-20">
           {cards.map((card, index) => (
-            <div className="w-full h-auto relative flex flex-col" key={index}>
+            <div
+              className={`w-full h-auto relative flex flex-col ${
+                index === 2 ? "lg:col-span-2 mx-auto justify-self-center" : ""
+              }`}
+              key={index}
+            >
               <div className="img-container w-full flex items-center justify-center h-[100px]">
                 <Image
                   src={card.img}
