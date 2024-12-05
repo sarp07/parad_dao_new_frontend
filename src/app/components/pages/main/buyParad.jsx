@@ -45,6 +45,7 @@ const buyParad = () => {
                   src={card.img}
                   alt={`${card.title} GIF`}
                   className="w-[160px] h-auto object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="item-box w-full lg:h-[250px] h-[260px] py-6 relative overflow-hidden flex flex-col justify-center gap-4">

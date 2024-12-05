@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../../common/container";
 import HeroGif from "../../../assets/gifs/coin.gif";
+import BlurHero from "../../../assets/img/blurHero.png";
 import Secure from "../../../assets/gifs/ssecure.gif";
 import Image from "next/image";
 import Cards from "./cards";
@@ -8,7 +9,7 @@ import BackGlow from "../../common/backglow";
 import HeroBox from "@/app/assets/glassmorphism-boxes/heroBox";
 import HeroBoxImg from "../../../assets/glassmorphism-boxes/herobox.png";
 import ItemBoxImg from "../../../assets/cards/card.png";
-const Hero = () => {
+const Hero = ({ index = 0 }) => {
   return (
     <div className="main-hero w-full pt-16 h-auto text-white relative">
       <Container>
@@ -24,6 +25,9 @@ const Hero = () => {
               src={HeroGif}
               alt="Hero GIF"
               className="w-auto lg:h-96 h-48 mt-10"
+              priority={index === 0}
+              blurDataURL="https://drive.google.com/u/0/drive-viewer/AKGpiha5ej_tKGXmLBDYdqzZ2ipdjPuUeMESO8kZJqmztPknw0N2JZS-zCINw25iTZGUucMAEHHOtiRr7xaiEyK5xLZAD7B-LsMlVkw=s2560"
+              placeholder="blur"
             />
           </div>
 

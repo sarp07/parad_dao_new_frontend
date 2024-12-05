@@ -43,6 +43,7 @@ const Media = () => {
                 src={logo.src}
                 alt={`Media Logo ${index + 1}`}
                 className="h-auto max-h-[100px] w-auto max-w-[150px]"
+                loading="lazy"
               />
             </div>
           ))}
