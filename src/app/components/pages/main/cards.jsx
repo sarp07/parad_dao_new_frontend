@@ -4,25 +4,29 @@ import Container from "../../common/container";
 const cards = [
   {
     title: "Parad Wallet",
-    description: "Coming soon",
+    description:
+      "Your self-custody wallet for ultimate security and control over your digital assets.",
     link: null,
     img: "https://s13.gifyu.com/images/SJNTk.gif",
   },
   {
     title: "Parad Dao",
-    description: "Parad Dao",
+    description:
+      "Join the Parad DAO to participate in decentralized decision-making and governance.",
     link: "https://app.prddao.io",
     img: "https://s7.gifyu.com/images/SJTE3.gif",
   },
   {
     title: "Parad Finance",
-    description: "Coming soon",
+    description:
+      "Revolutionizing finance with decentralized and transparent solutions for everyone.",
     link: null,
     img: "https://s13.gifyu.com/images/SJTEn.gif",
   },
   {
     title: "Parad Cheque",
-    description: "Coming soon",
+    description:
+      "Experience the future of secure digital transactions with blockchain-powered cheques.",
     link: null,
     img: "https://s13.gifyu.com/images/SJTEc.gif",
   },
@@ -58,21 +62,24 @@ const Cards = () => {
                 </p>
 
                 <p className="text-xl text-center text-[#d0d0d0] px-16">
-                  {card.link ? (
-                    <a href={card.link} className="text-blue-500 underline">
-                      {card.description}
-                    </a>
-                  ) : (
-                    "Your self-custody wallet for ultimate security and control over your digital assets."
-                  )}
+                  {card.description}
                 </p>
                 <div className="w-full flex items-center justify-center mt-5">
-                  <button
-                    className="text-xl text-center text-[#788fa1] border rounded-[30px] w-auto border-white/10 bg-white/[0.03] px-20 py-[10px]"
-                    disabled={card.link === null}
-                  >
-                    {card.description}
-                  </button>
+                  {card.link ? (
+                    <a
+                      href={card.link}
+                      className="text-xl text-center text-[#788fa1] border rounded-[30px] w-auto border-white/10 bg-white/[0.03] px-20 py-[10px] transition-all hover:text-white"
+                    >
+                      Learn More
+                    </a>
+                  ) : (
+                    <button
+                      className="text-xl text-center text-[#788fa1] border rounded-[30px] w-auto border-white/10 bg-white/[0.03] px-20 py-[10px]"
+                      disabled
+                    >
+                      Coming Soon
+                    </button>
+                  )}
                 </div>
               </div>
             </div>
