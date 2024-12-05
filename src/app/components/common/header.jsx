@@ -47,11 +47,13 @@ const Header = () => {
          </div>
          <Container>
             <div className="flex w-full h-full items-center justify-between">
-               <Image
-                  src={Logo}
-                  alt="Logo"
-                  className="lg:h-[40px] h-[32px] w-auto"
-               />
+               <a href="#home">
+                  <Image
+                     src={Logo}
+                     alt="Logo"
+                     className="lg:h-[40px] h-[32px] w-auto"
+                  />
+               </a>
                <div className="links lg:flex hidden">
                   <a href="#ecosystem" className="text-white text-md mx-7">
                      Ecosystem

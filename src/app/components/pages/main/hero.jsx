@@ -8,7 +8,7 @@ import HeroBoxImg from "../../../assets/glassmorphism-boxes/herobox.png";
 import ItemBoxImg from "../../../assets/cards/card.png";
 const Hero = () => {
    return (
-      <div className="main-hero w-full mt-16 h-auto text-white relative">
+      <div className="main-hero w-full pt-16 h-auto text-white relative">
          <Container>
             {/* Parıltı Efekti */}
             <div className="absolute w-full flex justify-center items-center z-0">

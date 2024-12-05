@@ -7,7 +7,7 @@ import Footer from "./components/common/footer";
 
 export default function Home() {
    return (
-      <div className="home">
+      <div className="home" id="home">
          <Hero />
          <Cards />
          <LearnMore />
