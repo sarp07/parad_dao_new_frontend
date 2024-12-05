@@ -6,14 +6,13 @@ import Community from "./components/pages/main/community";
 import Footer from "./components/common/footer";
 
 export default function Home() {
-  return (
-    <div className="home">
-      <Hero />
-      <Cards />
-      <LearnMore />
-      <BuyParad />
-      <Community />
-      <Footer />
-    </div>
-  );
+   return (
+      <div className="home">
+         <Hero />
+         <Cards />
+         <LearnMore />
+         <BuyParad />
+         <Community />
+      </div>
+   );
 }
