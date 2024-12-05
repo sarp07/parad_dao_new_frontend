@@ -21,7 +21,7 @@ const Hero = () => {
             <img
               src="https://s7.gifyu.com/images/SJKEh.gif"
               alt="Hero GIF"
-              className="w-auto h-96 mt-10"
+              className="w-auto lg:h-96 h-48 mt-10"
             />
           </div>
 

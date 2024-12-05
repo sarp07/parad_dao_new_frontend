@@ -7,14 +7,14 @@ const buyParadCards = [
     description:
       "Swap your Parad tokens with ease on PancakeSwap, the most popular decentralized exchange on Binance Smart Chain.",
     link: "https://pancakeswap.finance/?inputCurrency=0xf7fc02De1af32CF162583086ba35397b8B0996f8",
-    img: "https://s13.gifyu.com/images/SFTYG.gif",
+    img: "https://cryptologos.cc/logos/pancakeswap-cake-logo.svg?v=035",
   },
   {
     title: "BSCscan",
     description:
       "Track your Parad tokens and check transaction details on BSCscan, the leading blockchain explorer for Binance Smart Chain.",
     link: "https://bscscan.com/token/0xf7fc02De1af32CF162583086ba35397b8B0996f8",
-    img: "https://s13.gifyu.com/images/SJRZL.gif",
+    img: "https://bscscan.com/assets/bsc/images/svg/brandassets/logo-symbol-light.svg?v=24.11.3.1",
   },
 ];
 

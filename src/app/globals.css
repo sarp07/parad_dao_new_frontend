@@ -95,10 +95,3 @@ body {
 }
 /* Rectangle 9 */
 /* Rectangle 9 */
-html {
-  scroll-behavior: smooth;
-  --vw: 10.28px;
-  --dvh: 9.28px;
-  --svh: 9.28px;
-  --lvh: 1vh;
-}
