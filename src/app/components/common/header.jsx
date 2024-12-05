@@ -27,7 +27,7 @@ const Header = () => {
             <a
               href="https://app.prddao.io"
               target="_blank"
-              className="text-white text-sm bg-[#1f2a3f] px-6 py-2 rounded-full border border-white/[0.15] hover:bg-[#1f2a3f] hover:border-white/[0.5] transition-all"
+              className="text-[#a9c9e2] hover:text-white text-sm px-6 py-2 rounded-full border border-blue-200 bg-[#091728] hover:bg-slate-700 transition-all"
             >
               Buy PARAD
             </a>

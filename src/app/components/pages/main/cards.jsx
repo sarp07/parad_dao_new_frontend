@@ -72,7 +72,8 @@ const Cards = () => {
                   {card.link ? (
                     <a
                       href={card.link}
-                      className="text-xl text-center text-white border rounded-[30px] w-auto border-white/10 bg-white/[0.03] px-20 py-[10px] transition-all hover:text-blue-300"
+                      target="_blank"
+                      className="text-xl text-center text-[#a9c9e2] hover:text-white transition-colors border-2 rounded-full w-auto border-blue-200 bg-[#091728] hover:bg-slate-700 px-20 py-[10px]"
                     >
                       Learn More
                     </a>

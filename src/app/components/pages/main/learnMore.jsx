@@ -56,7 +56,8 @@ const learnMore = () => {
                 <div className="w-full flex items-center justify-center mt-5">
                   <a
                     href={card.link}
-                    className="text-xl text-center text-white border rounded-[30px] w-auto border-white/10 bg-white/[0.03] px-20 py-[10px] transition-all hover:text-blue-300"
+                    target="_blank"
+                    className="text-xl text-center text-[#a9c9e2] hover:text-white border-2 rounded-[30px] w-auto border-blue-200 bg-[#091728] hover:bg-slate-700 px-20 py-[10px] transition-all "
                   >
                     {card.title}
                   </a>

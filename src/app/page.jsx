@@ -3,6 +3,7 @@ import Cards from "./components/pages/main/cards";
 import LearnMore from "./components/pages/main/learnMore";
 import BuyParad from "./components/pages/main/buyParad";
 import Community from "./components/pages/main/community";
+import Footer from "./components/common/footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <LearnMore />
       <BuyParad />
       <Community />
+      <Footer />
     </div>
   );
 }

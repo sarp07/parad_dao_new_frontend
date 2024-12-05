@@ -46,14 +46,15 @@ const Hero = () => {
             <a
               href="#"
               //className="text-white text-sm bg-[#1f2a3f] px-6 py-2 rounded-full border border-white/[0.15] hover:bg-[#1f2a3f] hover:border-white/[0.5] transition-all"
-              className="text-xl text-center text-[#788fa1] border rounded-[30px] w-auto border-white/10 bg-white/[0.03] px-20 py-[10px]"
+              className="text-xl text-center text-[#a9c9e2] hover:text-white transition-colors border-2 rounded-full w-auto border-blue-200 bg-[#091728] hover:bg-slate-700 px-20 py-[10px]"
             >
               Discover PARAD
             </a>
             <a
               href="https://app.prddao.io"
+              target="_blank"
               //className="text-white text-sm bg-[#1f2a3f] px-6 py-2 rounded-full border border-white/[0.15] hover:bg-[#1f2a3f] hover:border-white/[0.5] transition-all"
-              className="text-xl text-center text-[#788fa1] border rounded-[30px] w-auto border-white/10 bg-white/[0.03] px-20 py-[10px]"
+              className="text-xl text-center text-[#a9c9e2] hover:text-white transition-colors border-2 rounded-full w-auto border-blue-200 bg-[#091728] hover:bg-slate-700 px-20 py-[10px]"
             >
               Buy PARAD
             </a>
