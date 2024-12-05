@@ -24,7 +24,7 @@ const learnMoreCards = [
 const learnMore = () => {
   return (
     <div
-      className="learn-more w-full flex flex-col items-center mt-20 pt-32"
+      className="learn-more w-full flex flex-col items-center lg:mt-20  mt-5 pt-32"
       id="about"
     >
       <Container>

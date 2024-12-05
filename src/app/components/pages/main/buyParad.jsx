@@ -24,7 +24,7 @@ const buyParadCards = [
 const buyParad = () => {
   return (
     <div
-      className="buy-parad w-full flex flex-col items-center mb-36 mt-20 pt-32"
+      className="buy-parad w-full flex flex-col items-center mb-36 lg:mt-20 mt-5 pt-32"
       id="exchange"
     >
       <Container>

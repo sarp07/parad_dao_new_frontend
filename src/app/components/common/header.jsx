@@ -9,6 +9,11 @@ import { FaInstagram, FaTelegramPlane } from "react-icons/fa";
 
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
+
+  const handleLinkClick = () => {
+    setOpen(false);
+  };
+
   return (
     <div className="w-screen lg:h-[80px] h-[60px] bg-[#070a13]/[0.5] border-0 border-white/[0.15] flex items-center justify-between fixed top-0 z-50 backdrop-blur-md">
       <div
@@ -17,30 +22,62 @@ const Header = () => {
         } h-svh overflow-hidden bg-[#070a13] flex flex-col pt-28`}
       >
         <div className="links w-full flex flex-col gap-3 px-6">
-          <a href="#ecosystem" className="text-white text-[18px]">
+          <a
+            href="#ecosystem"
+            className="text-white text-[18px]"
+            onClick={handleLinkClick}
+          >
             Ecosystem
           </a>
-          <a href="#about" className="text-white text-[18px]">
+          <a
+            href="#about"
+            className="text-white text-[18px]"
+            onClick={handleLinkClick}
+          >
             About
           </a>
-          <a href="#exchange" className="text-white text-[18px]">
+          <a
+            href="#exchange"
+            className="text-white text-[18px]"
+            onClick={handleLinkClick}
+          >
             Dao
           </a>
-          <a href="#community" className="text-white text-[18px]">
+          <a
+            href="#community"
+            className="text-white text-[18px]"
+            onClick={handleLinkClick}
+          >
             Community
           </a>
         </div>
         <div className="socials flex gap-3 items-center px-6 mt-12">
-          <a href="https://x.com/prddao?s=09" target="_blank">
+          <a
+            href="https://x.com/prddao?s=09"
+            target="_blank"
+            onClick={handleLinkClick}
+          >
             <FaXTwitter className="text-2xl" />
           </a>
-          <a href="https://www.instagram.com/prddao/" target="_blank">
+          <a
+            href="https://www.instagram.com/prddao/"
+            target="_blank"
+            onClick={handleLinkClick}
+          >
             <FaInstagram className="text-2xl" />
           </a>
-          <a href="https://t.me/paraddao" target="_blank">
+          <a
+            href="https://t.me/paraddao"
+            target="_blank"
+            onClick={handleLinkClick}
+          >
             <FaTelegramPlane className="text-2xl" />
           </a>
-          <a href="https://t.me/prddaoofficial" target="_blank">
+          <a
+            href="https://t.me/prddaoofficial"
+            target="_blank"
+            onClick={handleLinkClick}
+          >
             <FaTelegramPlane className="text-2xl" />
           </a>
         </div>

@@ -40,7 +40,7 @@ const cards = [
 const Cards = () => {
   return (
     <div
-      className="cards w-full flex flex-col items-center mt-20 pt-32"
+      className="cards w-full flex flex-col items-center lg:mt-20 mt-5 pt-32"
       id="ecosystem"
     >
       <Container>
