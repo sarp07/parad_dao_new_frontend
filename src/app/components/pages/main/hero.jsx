@@ -12,7 +12,7 @@ const Hero = () => {
          <Container>
             {/* Parıltı Efekti */}
             <div className="absolute w-full flex justify-center items-center z-0">
-               <div className="glow lg:w-[500px] lg:h-[500px] h-[300px] w-[300px]"></div>
+               <div className="glow w-[500px] h-[500px]"></div>
             </div>
 
             {/* İçerik */}
@@ -45,7 +45,7 @@ const Hero = () => {
                   <a
                      href="#"
                      //className="text-white text-sm bg-[#1f2a3f] px-6 py-2 rounded-full border border-white/[0.15] hover:bg-[#1f2a3f] hover:border-white/[0.5] transition-all"
-                     className="text-xl text-center text-[#a9c9e2] hover:text-white transition-colors border-2 rounded-full w-auto border-blue-200 bg-[#091728] hover:bg-slate-700 lg:px-20 px-4 py-[10px]"
+                     className="text-xl text-center text-[#a9c9e2] hover:text-white transition-colors border-2 rounded-full  border-blue-200 bg-[#091728] hover:bg-slate-700 w-[260px] py-[10px]"
                   >
                      Discover PARAD
                   </a>
@@ -53,7 +53,7 @@ const Hero = () => {
                      href="https://app.prddao.io"
                      target="_blank"
                      //className="text-white text-sm bg-[#1f2a3f] px-6 py-2 rounded-full border border-white/[0.15] hover:bg-[#1f2a3f] hover:border-white/[0.5] transition-all"
-                     className="text-xl text-center text-[#a9c9e2] hover:text-white transition-colors border-2 rounded-full w-auto border-blue-200 bg-[#091728] hover:bg-slate-700 lg:px-20 px-4 py-[10px]"
+                     className="text-xl text-center text-[#a9c9e2] hover:text-white transition-colors border-2 rounded-full border-blue-200 bg-[#091728] hover:bg-slate-700 w-[260px] py-[10px]"
                   >
                      Buy PARAD
                   </a>
