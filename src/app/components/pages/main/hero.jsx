@@ -5,7 +5,7 @@ import BackGlow from "../../common/backglow";
 import HeroBox from "@/app/assets/glassmorphism-boxes/heroBox";
 import Image from "next/image";
 import HeroBoxImg from "../../../assets/glassmorphism-boxes/herobox.png";
-
+import ItemBoxImg from "../../../assets/cards/card.png";
 const Hero = () => {
    return (
       <div className="main-hero w-full mt-16 h-auto text-white relative">
@@ -38,6 +38,9 @@ const Hero = () => {
                      />
                   </div>
                </div>
+               <div className="item-box w-[300px] h-[300px] relative overflow-hidden">
+                  <div className="mini-glow absolute right-0 bottom-20 -z-10"></div>
+               </div>
                <div className="flex justify-center mt-6 space-x-4">
                   <a
                      href="#"
@@ -52,6 +55,7 @@ const Hero = () => {
                      Buy PARAD
                   </a>
                </div>
+
                <Cards />
             </div>
          </Container>
