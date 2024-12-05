@@ -3,74 +3,80 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-Black.ttf") format("truetype");
-  font-weight: 900; /* Black ağırlık */
-  font-style: normal;
+   font-family: "Poppins";
+   src: url("/fonts/Poppins-Black.ttf") format("truetype");
+   font-weight: 900; /* Black ağırlık */
+   font-style: normal;
 }
 
 @font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-Bold.ttf") format("truetype");
-  font-weight: 700; /* Bold ağırlık */
-  font-style: normal;
+   font-family: "Poppins";
+   src: url("/fonts/Poppins-Bold.ttf") format("truetype");
+   font-weight: 700; /* Bold ağırlık */
+   font-style: normal;
 }
 
 @font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-ExtraBold.ttf") format("truetype");
-  font-weight: 800; /* ExtraBold ağırlık */
-  font-style: normal;
+   font-family: "Poppins";
+   src: url("/fonts/Poppins-ExtraBold.ttf") format("truetype");
+   font-weight: 800; /* ExtraBold ağırlık */
+   font-style: normal;
 }
 
 @font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-Light.ttf") format("truetype");
-  font-weight: 300; /* Light ağırlık */
-  font-style: normal;
+   font-family: "Poppins";
+   src: url("/fonts/Poppins-Light.ttf") format("truetype");
+   font-weight: 300; /* Light ağırlık */
+   font-style: normal;
 }
 
 @font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-Medium.ttf") format("truetype");
-  font-weight: 500; /* Medium ağırlık */
-  font-style: normal;
+   font-family: "Poppins";
+   src: url("/fonts/Poppins-Medium.ttf") format("truetype");
+   font-weight: 500; /* Medium ağırlık */
+   font-style: normal;
 }
 
 @font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-Regular.ttf") format("truetype");
-  font-weight: 400; /* Regular ağırlık */
-  font-style: normal;
+   font-family: "Poppins";
+   src: url("/fonts/Poppins-Regular.ttf") format("truetype");
+   font-weight: 400; /* Regular ağırlık */
+   font-style: normal;
 }
 
 @font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-SemiBold.ttf") format("truetype");
-  font-weight: 600; /* SemiBold ağırlık */
-  font-style: normal;
+   font-family: "Poppins";
+   src: url("/fonts/Poppins-SemiBold.ttf") format("truetype");
+   font-weight: 600; /* SemiBold ağırlık */
+   font-style: normal;
 }
 
 @font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-Thin.ttf") format("truetype");
-  font-weight: 100; /* Thin ağırlık */
-  font-style: normal;
+   font-family: "Poppins";
+   src: url("/fonts/Poppins-Thin.ttf") format("truetype");
+   font-weight: 100; /* Thin ağırlık */
+   font-style: normal;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  color: white;
-  background-color: #050811;
-  background-image: radial-gradient(rgba(90, 90, 90, 0.171) 2px, transparent 0);
-  background-size: 30px 30px;
-  background-position: -5px -5px;
+   font-family: "Poppins", sans-serif;
+   color: white;
+   background-color: #050811;
+   background-image: radial-gradient(
+      rgba(90, 90, 90, 0.171) 2px,
+      transparent 0
+   );
+   background-size: 30px 30px;
+   background-position: -5px -5px;
 }
 
 .glow {
-  /* Ellipse */
+   /* Ellipse */
 
-  background: #208bdf;
-  mix-blend-mode: screen;
-  filter: blur(277px);
+   background: #208bdf;
+   mix-blend-mode: screen;
+   filter: blur(277px);
 }
+
+/* Rectangle 9 */
+/* Rectangle 9 */
