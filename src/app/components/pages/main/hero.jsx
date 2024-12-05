@@ -38,9 +38,7 @@ const Hero = () => {
                      />
                   </div>
                </div>
-               <div className="item-box w-[300px] h-[300px] relative overflow-hidden">
-                  <div className="mini-glow absolute right-0 bottom-20 -z-10"></div>
-               </div>
+
                <div className="flex justify-center mt-6 space-x-4">
                   <a
                      href="#"
@@ -55,8 +53,6 @@ const Hero = () => {
                      Buy PARAD
                   </a>
                </div>
-
-               <Cards />
             </div>
          </Container>
       </div>
