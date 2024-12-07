@@ -35,7 +35,7 @@ const Hero = ({ index = 0 }) => {
             <h5 className="w-5/6 text-8xl font-black text-center text-[#a2cdef] relative z-[10] lg:block hidden">
               SECURE THE FUTURE<br></br>OF FINANCE WITH<br></br>PARAD.
             </h5>
-            <h5 className="w-full text-4xl font-black text-center text-[#a2cdef] my-16 relative z-[10] lg:hidden flex">
+            <h5 className="w-full text-4xl font-black text-center text-[#a2cdef] my-10 relative z-[10] lg:hidden flex">
               SECURE THE FUTURE OF FINANCE WITH PARAD.
             </h5>
             {/* <div className="absolute w-full flex items-center justify-center mt-10">
@@ -51,7 +51,7 @@ const Hero = ({ index = 0 }) => {
             <a
               href="#"
               //className="text-white text-sm bg-[#1f2a3f] px-6 py-2 rounded-full border border-white/[0.15] hover:bg-[#1f2a3f] hover:border-white/[0.5] transition-all"
-              className="text-xl text-center text-[#a9c9e2] hover:text-white transition-colors border-2 rounded-full  border-blue-200 bg-[#091728] hover:bg-slate-700 w-[260px] py-[10px]"
+              className="lg:text-xl text-lg text-center text-[#a9c9e2] hover:text-white transition-colors border-2 rounded-full  border-blue-200 bg-[#091728] hover:bg-slate-700 w-[260px] py-[10px]"
             >
               Discover PARAD
             </a>
@@ -59,7 +59,7 @@ const Hero = ({ index = 0 }) => {
               href="https://www.lbank.com/trade/prd_usdt"
               target="_blank"
               //className="text-white text-sm bg-[#1f2a3f] px-6 py-2 rounded-full border border-white/[0.15] hover:bg-[#1f2a3f] hover:border-white/[0.5] transition-all"
-              className="text-xl text-center text-[#a9c9e2] hover:text-white transition-colors border-2 rounded-full border-blue-200 bg-[#091728] hover:bg-slate-700 w-[260px] py-[10px]"
+              className="lg:text-xl text-lg text-center text-[#a9c9e2] hover:text-white transition-colors border-2 rounded-full border-blue-200 bg-[#091728] hover:bg-slate-700 w-[260px] py-[10px]"
             >
               Buy PARAD
             </a>

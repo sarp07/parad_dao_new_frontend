@@ -24,28 +24,28 @@ const Header = () => {
         <div className="links w-full flex flex-col gap-3 px-6">
           <a
             href="#ecosystem"
-            className="text-white text-[18px]"
+            className="text-white text-[18px] hover:text-blue-300 transition-all"
             onClick={handleLinkClick}
           >
             Ecosystem
           </a>
           <a
             href="#about"
-            className="text-white text-[18px]"
+            className="text-white text-[18px] hover:text-blue-300 transition-all"
             onClick={handleLinkClick}
           >
             About
           </a>
           <a
             href="#exchange"
-            className="text-white text-[18px]"
+            className="text-white text-[18px] hover:text-blue-300 transition-all"
             onClick={handleLinkClick}
           >
             Dao
           </a>
           <a
             href="#community"
-            className="text-white text-[18px]"
+            className="text-white text-[18px] hover:text-blue-300 transition-all"
             onClick={handleLinkClick}
           >
             Community
@@ -56,6 +56,7 @@ const Header = () => {
             href="https://x.com/prddao?s=09"
             target="_blank"
             onClick={handleLinkClick}
+            className="hover:text-blue-400 transition-all"
           >
             <FaXTwitter className="text-2xl" />
           </a>
@@ -63,6 +64,7 @@ const Header = () => {
             href="https://www.instagram.com/prddao/"
             target="_blank"
             onClick={handleLinkClick}
+            className="hover:text-pink-400 transition-all"
           >
             <FaInstagram className="text-2xl" />
           </a>
@@ -70,6 +72,7 @@ const Header = () => {
             href="https://t.me/paraddao"
             target="_blank"
             onClick={handleLinkClick}
+            className="hover:text-blue-500 transition-all"
           >
             <FaTelegramPlane className="text-2xl" />
           </a>
@@ -77,6 +80,7 @@ const Header = () => {
             href="https://t.me/prddaoofficial"
             target="_blank"
             onClick={handleLinkClick}
+            className="hover:text-blue-500 transition-all"
           >
             <FaTelegramPlane className="text-2xl" />
           </a>
