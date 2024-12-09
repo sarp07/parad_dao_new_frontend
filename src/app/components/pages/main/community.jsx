@@ -30,7 +30,7 @@ const communityLinks = [
 const Community = () => {
   return (
     <div
-      className="community w-full flex flex-col items-center lg:my-20 mt-5 mb-20"
+      className="community w-full flex flex-col items-center lg:my-20 mt-5 mb-20 pt-20"
       id="community"
     >
       <Container>

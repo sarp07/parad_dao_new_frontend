@@ -17,7 +17,7 @@ const partnerLogos = [
 
 const partners = () => {
   return (
-    <div className="partners w-full flex flex-col items-center lg:mt-20 mt-5">
+    <div className="partners w-full flex flex-col items-center lg:mt-20 mt-5 pt-11">
       <Container>
         {/* Başlık */}
         <div className="text-center mb-10">
@@ -34,7 +34,7 @@ const partners = () => {
               <Image
                 src={logo}
                 alt={`Partner Logo ${index + 1}`}
-                className="h-auto max-h-[80px] w-auto opacity-80 hover:opacity-100 transition-opacity"
+                className="h-auto max-h-[80px] w-auto opacity-80 hover:opacity-100 transition-all hover:scale-105 duration-300 ease-in-out transform"
               />
             </div>
           ))}
