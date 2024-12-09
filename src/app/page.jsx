@@ -5,6 +5,7 @@ import BuyParad from "./components/pages/main/buyParad";
 import Community from "./components/pages/main/community";
 import Footer from "./components/common/footer";
 import Media from "./components/pages/main/media";
+import Partners from "./components/pages/main/partners";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Cards />
       <LearnMore />
       <BuyParad />
+      <Partners />
       <Community />
       <Media />
     </div>
