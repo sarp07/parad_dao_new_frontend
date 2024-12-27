@@ -16,7 +16,7 @@ const buyParadCards = [
     title: "BSCscan",
     description:
       "Track Parad tokens and view transactions on BSCscan, Binance Smart Chain's top explorer.",
-    link: "https://bscscan.com/token/0xf7fc02De1af32CF162583086ba35397b8B0996f8",
+    link: "https://bscscan.com/token/0x660687e0e0e5283656909a71b59491eac3672a8f",
     img: Bsc,
   },
 ];
