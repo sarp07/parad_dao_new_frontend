@@ -88,7 +88,7 @@ const Header = () => {
       </div>
       <Container>
         <div className="flex w-full h-full items-center justify-between">
-          <a href="/">
+          <a href="https://prddao.io">
             <Image
               src={Logo}
               alt="Logo"
