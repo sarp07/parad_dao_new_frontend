@@ -88,7 +88,7 @@ const Header = () => {
       </div>
       <Container>
         <div className="flex w-full h-full items-center justify-between">
-          <a href="#home">
+          <a href="/">
             <Image
               src={Logo}
               alt="Logo"

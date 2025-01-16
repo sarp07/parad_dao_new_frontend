@@ -49,7 +49,7 @@ const Hero = ({ index = 0 }) => {
 
           <div className="flex justify-center mt-6 space-x-4">
             <a
-              href="#"
+              href="https://prddao.io/#about"
               //className="text-white text-sm bg-[#1f2a3f] px-6 py-2 rounded-full border border-white/[0.15] hover:bg-[#1f2a3f] hover:border-white/[0.5] transition-all"
               className="lg:text-xl text-lg text-center text-[#a9c9e2] hover:text-white transition-colors border-2 rounded-full  border-blue-200 bg-[#091728] hover:bg-slate-700 w-[260px] py-[10px]"
             >
