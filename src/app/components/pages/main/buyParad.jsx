@@ -3,6 +3,8 @@ import Container from "../../common/container";
 import Image from "next/image";
 import Bsc from "../../../assets/svgs/bsc.svg";
 import Lbank from "../../../assets/svgs/lbank.svg";
+import Coingecko from "../../../assets/svgs/coingecko.svg";
+
 
 const buyParadCards = [
   {
@@ -18,6 +20,13 @@ const buyParadCards = [
       "Track Parad tokens and view transactions on BSCscan, Binance Smart Chain's top explorer.",
     link: "https://bscscan.com/token/0x660687e0e0e5283656909a71b59491eac3672a8f",
     img: Bsc,
+  },
+  {
+    title: "Coingecko",
+    description:
+      "View Parad token price, market cap and trading information on Coingecko.",
+    link: "https://www.coingecko.com/en/coins/parad",
+    img: Coingecko,
   },
 ];
 
