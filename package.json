@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "ethers": "^6.13.5",
     "hamburger-react": "^2.5.1",
     "next": "^15.0.3",
     "react": "^18.3.1",
