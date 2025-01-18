@@ -25,7 +25,7 @@ const buyParadCards = [
     title: "Coingecko",
     description:
       "View Parad token price, market cap and trading information on Coingecko.",
-    link: "https://www.coingecko.com/en/coins/parad",
+    link: "https://www.coingecko.com/en/coins/parad-dao",
     img: Coingecko,
   },
 ];
