@@ -10,35 +10,42 @@ const LOCKED_WALLETS = [
   "0x89B6aA3B0cF54776daB1c962546af08a78bd3126"
 ];
 
-const TOTAL_SUPPLY = "500000000"; 
-const TOKEN_CONTRACT = "0x660687e0E0E5283656909a71B59491EaC3672A8F"; 
-const RPC_URL = "https://bsc-dataseed1.binance.org/"; 
+const TOKEN_CONTRACT = "0x660687e0E0E5283656909a71B59491EaC3672A8F";
+const RPC_URL = "https://bsc-dataseed1.binance.org/";
 
 export async function GET() {
   try {
     const provider = new ethers.JsonRpcProvider(RPC_URL);
-    const tokenContract = new ethers.Contract(
+    
+    // Tek bir kontrat instance'ı oluşturalım, iki fonksiyon için de kullanabiliriz
+    const contract = new ethers.Contract(
       TOKEN_CONTRACT,
-      ["function balanceOf(address) view returns (uint256)"],
+      [
+        "function balanceOf(address) view returns (uint256)",
+        "function totalSupply() view returns (uint256)"
+      ],
       provider
     );
+
+    // Önce total supply'i çekelim
+    const totalSupplyBN = await contract.totalSupply();
 
     let totalLocked = ethers.parseEther("0");
     
     // Kilitli cüzdanların bakiyelerini topla
     for (const wallet of LOCKED_WALLETS) {
-      const balance = await tokenContract.balanceOf(wallet);
+      const balance = await contract.balanceOf(wallet);
       totalLocked = totalLocked + balance;
     }
 
     // Total supply'den kilitli tokenleri çıkar
-    const totalSupplyBN = ethers.parseEther(TOTAL_SUPPLY);
     const circulatingSupply = totalSupplyBN - totalLocked;
     
     return NextResponse.json({
       result: ethers.formatEther(circulatingSupply)
     });
   } catch (error) {
+    console.error("Error in circulating supply calculation:", error);
     return NextResponse.json({
       result: "0"
     }, { status: 500 });
