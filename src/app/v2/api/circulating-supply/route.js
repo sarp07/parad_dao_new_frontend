@@ -35,21 +35,12 @@ export async function GET() {
     const totalSupplyBN = ethers.parseEther(TOTAL_SUPPLY);
     const circulatingSupply = totalSupplyBN - totalLocked;
     
-    const response = {
-      isSuccessfully: true,
-      data: {
-        circulatingSupply: ethers.formatEther(circulatingSupply),
-        timestamp: new Date().toISOString()
-      },
-      message: "Circulating supply fetched successfully"
-    };
-
-    return NextResponse.json(response);
+    return NextResponse.json({
+      result: ethers.formatEther(circulatingSupply)
+    });
   } catch (error) {
     return NextResponse.json({
-      isSuccessfully: false,
-      data: null,
-      message: "Error fetching circulating supply: " + error.message
+      result: "0"
     }, { status: 500 });
   }
 } 

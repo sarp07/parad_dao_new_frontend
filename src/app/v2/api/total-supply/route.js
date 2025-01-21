@@ -1,14 +1,16 @@
 import { NextResponse } from 'next/server';
+import { ethers } from 'ethers';
+
+const TOTAL_SUPPLY = "500000000"; 
 
 export async function GET() {
-  const response = {
-    isSuccessfully: true,
-    data: {
-      totalSupply: "500000000.0",
-      timestamp: new Date().toISOString()
-    },
-    message: "Total supply fetched successfully"
-  };
-
-  return NextResponse.json(response);
+  try {
+    return NextResponse.json({
+      result: TOTAL_SUPPLY
+    });
+  } catch (error) {
+    return NextResponse.json({
+      result: "0"
+    }, { status: 500 });
+  }
 } 
