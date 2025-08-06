@@ -2,15 +2,16 @@ import { NextResponse } from 'next/server';
 import { ethers } from 'ethers';
 
 const LOCKED_WALLETS = [
-  "0x09B3b90582c7D3d1187dED2d521Be451c1b62eC8",
-  "0xD1C175E83Fd2B8d8bDeB620038F55F2BAeC371C3",
-  "0x166178c9e8Dcea04E4C7731B6ae3E605758ce745",
-  "0x0E4Ef8c2A8cD88ac3Dc5F59cB315A8dE2d2f24f7",
-  "0x7B29AA7e052f05Aaff1C14665aaE26979FC8A2f5",
-  "0x89B6aA3B0cF54776daB1c962546af08a78bd3126"
+  "0x26152E29BD216110b2b20e7D6234822f7f73D017", // Likidite - 173 milyon
+  "0xf90860dA4132A3605c406BaB254540D13c13e3AF", // Developer - 75 milyon
+  "0xAe4CfF65e66c2Bf1b5a71f738a68ECA59f91f3D9", // Marketing - 75 milyon
+  "0xa48b055d17B46C65eF7DA39039d3C77e8f683A62", // Team - 48.5 milyon
+  "0x52bf45D40810C974BEd86bF2DA0799A4060170dC", // Stratejik Partner - 25 milyon
+  "0x245c035D53d3e69764d8796De304a69bc03649A6"  // VC Allocation - 73.5 milyon
+  // Toplam: 470 milyon token locked
 ];
 
-const TOKEN_CONTRACT = "0x660687e0E0E5283656909a71B59491EaC3672A8F";
+const TOKEN_CONTRACT = "0xc011c17E3cBA7f16Df7fDE8C8cbE7C2511a07783";
 const RPC_URL = "https://bsc-dataseed1.binance.org/";
 
 export async function GET() {

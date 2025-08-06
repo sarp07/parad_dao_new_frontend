@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { ethers } from 'ethers';
 
-const TOKEN_CONTRACT = "0x660687e0E0E5283656909a71B59491EaC3672A8F"; 
+const TOKEN_CONTRACT = "0xc011c17E3cBA7f16Df7fDE8C8cbE7C2511a07783"; 
 const RPC_URL = "https://bsc-dataseed1.binance.org/"; 
 
 export async function GET() {
